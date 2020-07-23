@@ -15,6 +15,16 @@ const App = () => {
       
         <Text style={{alignItems: "center", color:'yellow', fontSize:40, padding:30}}>Chicken Noodles</Text>
 
+<Image
+          style={{
+            resizeMode: "cover",
+            height: 300,
+            width: 250,
+            padding:30
+          }}
+          source={require("./assets/foodimgs/chickennoodles.jpg")}
+        />
+
       <TouchableOpacity
         style={styles.button}
         onPress={onPress1}
@@ -44,6 +54,17 @@ const App = () => {
     <View style={styles.container}>
 
         <Text style={{alignItems: "center", color:'yellow', fontSize:40, padding:30}}>Chicken Noodles</Text>
+
+<Image
+          style={{
+            resizeMode: "cover",
+            height: 300,
+            width: 250,
+            padding:30
+          }}
+          source={require("./assets/foodimgs/chickennoodles.jpg")}
+        />
+
       
       <TouchableOpacity
         style={styles.button}
@@ -74,6 +95,16 @@ const App = () => {
     <View style={styles.container}>
 
         <Text style={{alignItems: "center", color:'yellow', fontSize:40, padding:30}}>Chicken Noodles</Text>
+
+<Image
+          style={{
+            resizeMode: "cover",
+            height: 300,
+            width: 250,
+            padding:30
+          }}
+          source={require("./assets/foodimgs/chickennoodles.jpg")}
+        />
 
       <TouchableOpacity
         style={styles.button}
